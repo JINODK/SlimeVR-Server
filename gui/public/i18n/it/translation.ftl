@@ -152,7 +152,7 @@ body_assignment_menu-unassign_tracker = Rimuovi assegnazione del tracker
 ## Tracker assignment menu
 # A -translation_key (with a dash in the front) means that it's a label.
 # It can only be used in the translation file, it's nice for reusing names and that kind of stuff.
-# 
+#
 # We are using it here because english doesn't require changing the text in each case but
 # maybe your language does.
 -tracker_selection-part = Which tracker to assign to your
@@ -243,11 +243,11 @@ settings-general-tracker_mechanics-drift_compensation-max_resets-label = Use up 
 settings-general-fk_settings = Impostazioni FK
 settings-general-fk_settings-leg_tweak = Impostazioni Gambe
 settings-general-fk_settings-leg_tweak-description = "Compenetrazione pavimento" può ridurre o anche eliminare completamente la compenetrazione con il pavimento, ma può causare problemi quando in ginocchio. "Correzione pattinaggio" corregge l'effetto che fa sembrare che pattini sul ghiaccio, ma può peggiorare la precisione di certi movimenti.
-# Floor clip: 
+# Floor clip:
 # why the name - came from the idea of noclip in video games, but is the opposite where clipping to the floor is a desired feature
 # definition - Prevents the foot trackers from going lower than they where when a reset was performed
 settings-general-fk_settings-leg_tweak-floor_clip = Compenetrazione pavimento
-# Skating correction: 
+# Skating correction:
 # why the name - without this enabled the feet will often slide across the ground as if your skating across the ground,
 # since this largely prevents this it corrects for it hence skating correction (note this may be renamed to sliding correction)
 # definition - Guesses when each foot is in contact with the ground and uses that information to improve tracking
@@ -256,6 +256,7 @@ settings-general-fk_settings-leg_tweak-skating_correction-amount = Forza fattore
 settings-general-fk_settings-arm_fk = FK Braccia
 settings-general-fk_settings-arm_fk-description = Cambia la modalità di tracciamento delle braccia.
 settings-general-fk_settings-arm_fk-force_arms = Forza il calcolo della posizione delle braccia a utilizzare il HMD
+settings-general-fk_settings-arm_fk-i_pose = Use i-pose instead of t-pose
 settings-general-fk_settings-skeleton_settings = Impostazioni scheletro
 settings-general-fk_settings-skeleton_settings-description = Abilita o disabilita le impostazioni dello scheletro. É raccomandato lasciare queste impostazioni attive.
 settings-general-fk_settings-skeleton_settings-extended_spine = Estensione colonna vertebrale

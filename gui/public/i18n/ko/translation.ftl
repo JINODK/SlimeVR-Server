@@ -152,7 +152,7 @@ body_assignment_menu-unassign_tracker = 할당하지 않기
 ## Tracker assignment menu
 # A -translation_key (with a dash in the front) means that it's a label.
 # It can only be used in the translation file, it's nice for reusing names and that kind of stuff.
-# 
+#
 # We are using it here because english doesn't require changing the text in each case but
 # maybe your language does.
 -tracker_selection-part = Which tracker to assign to your
@@ -243,11 +243,11 @@ settings-general-tracker_mechanics-drift_compensation-max_resets-label = Use up 
 settings-general-fk_settings = FK 설정
 settings-general-fk_settings-leg_tweak = 다리 보정
 settings-general-fk_settings-leg_tweak-description = 플로어 클립은 바닥과의 클리핑을 줄이거나 제거할 수 있지만 무릎을 꿇을 때 문제를 일으킬 수 있어요. 스케이팅 보정은 아이스 스케이팅을 보정하지만, 특정 움직임 패턴에서 정확도를 저하시킬 수 있어요.
-# Floor clip: 
+# Floor clip:
 # why the name - came from the idea of noclip in video games, but is the opposite where clipping to the floor is a desired feature
 # definition - Prevents the foot trackers from going lower than they where when a reset was performed
 settings-general-fk_settings-leg_tweak-floor_clip = 플로어 클립
-# Skating correction: 
+# Skating correction:
 # why the name - without this enabled the feet will often slide across the ground as if your skating across the ground,
 # since this largely prevents this it corrects for it hence skating correction (note this may be renamed to sliding correction)
 # definition - Guesses when each foot is in contact with the ground and uses that information to improve tracking
@@ -256,6 +256,7 @@ settings-general-fk_settings-leg_tweak-skating_correction-amount = 스케이팅 
 settings-general-fk_settings-arm_fk = 팔 운동학
 settings-general-fk_settings-arm_fk-description = 팔이 추적되는 방식을 변경할 수 있어요.
 settings-general-fk_settings-arm_fk-force_arms = 팔을 HMD에서만 받아오기
+settings-general-fk_settings-arm_fk-i_pose = Use i-pose instead of t-pose
 settings-general-fk_settings-skeleton_settings = 골격 설정
 settings-general-fk_settings-skeleton_settings-description = 골격 설정을 설정하거나 해제해요. 이것들은 켜두는 게 좋아요.
 settings-general-fk_settings-skeleton_settings-extended_spine = 척추 확장

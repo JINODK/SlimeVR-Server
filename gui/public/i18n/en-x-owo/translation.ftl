@@ -152,7 +152,7 @@ body_assignment_menu-unassign_tracker = unassyign twayckaw
 ## Tracker assignment menu
 # A -translation_key (with a dash in the front) means that it's a label.
 # It can only be used in the translation file, it's nice for reusing names and that kind of stuff.
-# 
+#
 # We are using it here because english doesn't require changing the text in each case but
 # maybe your language does.
 -tracker_selection-part = Which tracker to assign to your
@@ -243,11 +243,11 @@ settings-general-tracker_mechanics-drift_compensation-max_resets-label = nuwmbew
 settings-general-fk_settings = fk sewttings
 settings-general-fk_settings-leg_tweak = leg tweeks
 settings-general-fk_settings-leg_tweak-description = floo-cwip can wowduce owow even ewiminates cwipping with teh fwoor but may cause pwobweems when on yowur neeys. skayting-cowwection cowwects fow wowce skating, but can wowcyancy accuwowacy in cewtain wowvement wowttewns.
-# Floor clip: 
+# Floor clip:
 # why the name - came from the idea of noclip in video games, but is the opposite where clipping to the floor is a desired feature
 # definition - Prevents the foot trackers from going lower than they where when a reset was performed
 settings-general-fk_settings-leg_tweak-floor_clip = fwoow cwip
-# Skating correction: 
+# Skating correction:
 # why the name - without this enabled the feet will often slide across the ground as if your skating across the ground,
 # since this largely prevents this it corrects for it hence skating correction (note this may be renamed to sliding correction)
 # definition - Guesses when each foot is in contact with the ground and uses that information to improve tracking
@@ -256,6 +256,7 @@ settings-general-fk_settings-leg_tweak-skating_correction-amount = Skating corre
 settings-general-fk_settings-arm_fk = awm fk
 settings-general-fk_settings-arm_fk-description = chawnge teh way teh awms awe twacked.
 settings-general-fk_settings-arm_fk-force_arms = fowce awms fwom hmd
+settings-general-fk_settings-arm_fk-i_pose = uwse i powse insted of t powse
 settings-general-fk_settings-skeleton_settings = skeweton sewttings
 settings-general-fk_settings-skeleton_settings-description = toggwe skeweton sewttings on owow off. is wowcommended to weawve these on~
 settings-general-fk_settings-skeleton_settings-extended_spine = ewtended spine
@@ -313,7 +314,7 @@ settings-serial-auto_dropdown_item = awto
 ## OSC router settings
 settings-osc-router = OSC wouwter
 # This cares about multilines
-settings-osc-router-description = 
+settings-osc-router-description =
     fowwawd osc messages fwom anothew pwogwam
     usefuww fow uwsing anothew osc pwogwam with VRChat fow exampwe
 settings-osc-router-enable = enaybwe

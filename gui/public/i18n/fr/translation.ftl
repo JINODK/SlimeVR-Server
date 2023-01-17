@@ -152,7 +152,7 @@ body_assignment_menu-unassign_tracker = Désassigner
 ## Tracker assignment menu
 # A -translation_key (with a dash in the front) means that it's a label.
 # It can only be used in the translation file, it's nice for reusing names and that kind of stuff.
-# 
+#
 # We are using it here because english doesn't require changing the text in each case but
 # maybe your language does.
 -tracker_selection-part = Which tracker to assign to your
@@ -243,11 +243,11 @@ settings-general-tracker_mechanics-drift_compensation-max_resets-label = Nombre 
 settings-general-fk_settings = Paramètres de la capture
 settings-general-fk_settings-leg_tweak = Ajustement des jambes
 settings-general-fk_settings-leg_tweak-description = Le limitage au sol empêche vos pieds de traverser le sol, mais peut causer des problèmes lorsque vous êtes à genoux. La correction du glissement réduit le glissement, mais peut réduire la précision de certains mouvements.
-# Floor clip: 
+# Floor clip:
 # why the name - came from the idea of noclip in video games, but is the opposite where clipping to the floor is a desired feature
 # definition - Prevents the foot trackers from going lower than they where when a reset was performed
 settings-general-fk_settings-leg_tweak-floor_clip = Limitage au sol
-# Skating correction: 
+# Skating correction:
 # why the name - without this enabled the feet will often slide across the ground as if your skating across the ground,
 # since this largely prevents this it corrects for it hence skating correction (note this may be renamed to sliding correction)
 # definition - Guesses when each foot is in contact with the ground and uses that information to improve tracking
@@ -256,6 +256,7 @@ settings-general-fk_settings-leg_tweak-skating_correction-amount = Force de la c
 settings-general-fk_settings-arm_fk = Capture des bras
 settings-general-fk_settings-arm_fk-description = Changez la façon dont les bras sont captés.
 settings-general-fk_settings-arm_fk-force_arms = Forcer les bras en provenance du casque VR
+settings-general-fk_settings-arm_fk-i_pose = Utiliser la i-pose au lieu de la t-pose
 settings-general-fk_settings-skeleton_settings = Paramètres du squelette
 settings-general-fk_settings-skeleton_settings-description = Activez ou désactivez des paramètres avancés de capture.
 settings-general-fk_settings-skeleton_settings-extended_spine = Colone vertébrale avancée
@@ -491,7 +492,7 @@ onboarding-automatic_proportions-preparation-title = Préparation
 onboarding-automatic_proportions-preparation-description = Placez une chaise directement derrière vous dans votre espace de jeu.
 onboarding-automatic_proportions-preparation-next = je suis devant une chaise
 onboarding-automatic_proportions-start_recording-title = Préparez-vous à bouger
-onboarding-automatic_proportions-start_recording-description = Nous allons maintenant enregistrer des poses et des mouvements spécifiques. 
+onboarding-automatic_proportions-start_recording-description = Nous allons maintenant enregistrer des poses et des mouvements spécifiques.
 onboarding-automatic_proportions-start_recording-next = Commencer l'enregistrement
 onboarding-automatic_proportions-recording-title = Enregistrement
 onboarding-automatic_proportions-recording-description-p0 = Enregistrement en cours...

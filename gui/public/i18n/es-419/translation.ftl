@@ -152,7 +152,7 @@ body_assignment_menu-unassign_tracker = Desasignar sensor
 ## Tracker assignment menu
 # A -translation_key (with a dash in the front) means that it's a label.
 # It can only be used in the translation file, it's nice for reusing names and that kind of stuff.
-# 
+#
 # We are using it here because english doesn't require changing the text in each case but
 # maybe your language does.
 -tracker_selection-part = Which tracker to assign to your
@@ -243,11 +243,11 @@ settings-general-tracker_mechanics-drift_compensation-max_resets-label = Use up 
 settings-general-fk_settings = Ajustes de sensores
 settings-general-fk_settings-leg_tweak = Corrección de piernas
 settings-general-fk_settings-leg_tweak-description = El clip del suelo puede reducir o incluso eliminar el traspaso del piso pero puede causar problemas cuando te arrodilles. Corrección del patinaje corrige el patinaje, pero puede disminuir la precisión de ciertos movimientos.
-# Floor clip: 
+# Floor clip:
 # why the name - came from the idea of noclip in video games, but is the opposite where clipping to the floor is a desired feature
 # definition - Prevents the foot trackers from going lower than they where when a reset was performed
 settings-general-fk_settings-leg_tweak-floor_clip = Clip del suelo
-# Skating correction: 
+# Skating correction:
 # why the name - without this enabled the feet will often slide across the ground as if your skating across the ground,
 # since this largely prevents this it corrects for it hence skating correction (note this may be renamed to sliding correction)
 # definition - Guesses when each foot is in contact with the ground and uses that information to improve tracking
@@ -256,6 +256,7 @@ settings-general-fk_settings-leg_tweak-skating_correction-amount = Agresividad d
 settings-general-fk_settings-arm_fk = Trackeo de brazos
 settings-general-fk_settings-arm_fk-description = Cambia cómo el movimiento de los brazos es detectado.
 settings-general-fk_settings-arm_fk-force_arms = Forzar brazos desde el HMD
+settings-general-fk_settings-arm_fk-i_pose = Use i-pose instead of t-pose
 settings-general-fk_settings-skeleton_settings = Ajustes de esqueleto
 settings-general-fk_settings-skeleton_settings-description = Habilita o deshabilita los ajustes de esqueleto. Es recomendado dejar estos ajustes habilitados.
 settings-general-fk_settings-skeleton_settings-extended_spine = Extención de columna
@@ -372,7 +373,7 @@ onboarding-wifi_creds-back = Volver a la introducción
 onboarding-wifi_creds = Ingresar credenciales del Wi-Fi
 # This cares about multilines
 onboarding-wifi_creds-description =
-    Los sensores utilizarán estas credenciales para conectarse inalámbricamente. 
+    Los sensores utilizarán estas credenciales para conectarse inalámbricamente.
     Por favor usa las credenciales del Wi-Fi al cuál estás conectado actualmente.
 onboarding-wifi_creds-skip = Saltar ajustes de Wi-Fi
 onboarding-wifi_creds-submit = ¡Enviar!
